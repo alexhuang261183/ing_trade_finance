@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_269830_ing_trade.ing_trade_finance_services_tasks_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>ing_trade_finance_services_tasks_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-15 07:40:33</sys_created_on>
+        <sys_id>02ebb98bdb9263006a22793ebf961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_269830_ing_trade.ing_trade_finance_services_tasks_user</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>sys_user_role_02ebb98bdb9263006a22793ebf961969</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-15 07:40:33</sys_updated_on>
+    </sys_user_role>
+</record_update>

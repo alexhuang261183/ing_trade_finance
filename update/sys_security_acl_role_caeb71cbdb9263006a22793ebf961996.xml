@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-15 07:40:34</sys_created_on>
+        <sys_id>caeb71cbdb9263006a22793ebf961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_269830_ing_trade_ing_trade_finance_services_tasks.x_269830_ing_trade.ing_trade_finance_services_tasks_user</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_security_acl display_value="x_269830_ing_trade_ing_trade_finance_services_tasks">82eb71cbdb9263006a22793ebf961994</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_caeb71cbdb9263006a22793ebf961996</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-15 07:40:34</sys_updated_on>
+        <sys_user_role display_value="x_269830_ing_trade.ing_trade_finance_services_tasks_user" name="x_269830_ing_trade.ing_trade_finance_services_tasks_user">02ebb98bdb9263006a22793ebf961969</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
