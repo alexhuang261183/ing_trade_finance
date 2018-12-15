@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>alex.huang</sys_created_by>
         <sys_created_on>2018-12-15 07:37:47</sys_created_on>
-        <sys_id>9d4b798bdb9263006a22793ebf9619eb</sys_id>
+        <sys_id>f0114a8fdb9263006a22793ebf9619bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_269830_ing_trade_ing_trade_finance_services_requests</sys_name>
         <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
-        <sys_update_name>ua_table_licensing_config_9d4b798bdb9263006a22793ebf9619eb</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_f0114a8fdb9263006a22793ebf9619bd</sys_update_name>
         <sys_updated_by>alex.huang</sys_updated_by>
         <sys_updated_on>2018-12-15 07:37:47</sys_updated_on>
     </ua_table_licensing_config>
