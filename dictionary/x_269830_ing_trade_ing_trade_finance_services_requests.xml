@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="ING - Trade Finance Services Requests" max_length="40" name="x_269830_ing_trade_ing_trade_finance_services_requests" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element audit="true" label="ING - Trade Finance Services Requests" max_length="40" name="x_269830_ing_trade_ing_trade_finance_services_requests" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Amount" max_length="40" name="u_amount" type="decimal"/>
+        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Comments" max_length="4000" name="u_comments" type="string"/>
+        <element label="Currency" max_length="32" name="u_currency" reference="fx_currency" type="reference"/>
+        <element label="Customer" max_length="40" name="u_customer" type="string"/>
+        <element label="Date IN" max_length="40" name="u_date_in" type="glide_date"/>
         <element label="Flow" max_length="40" name="u_flow" type="string"/>
+        <element label="Sequence number" max_length="40" name="u_sequence_number" type="string"/>
+        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="3"/>
+                <element inactive_on_update="false" label="Info requested" value="-8"/>
+                <element inactive_on_update="false" label="Open" value="1"/>
+                <element inactive_on_update="false" label="Waiting for info" value="-7"/>
+                <element inactive_on_update="false" label="Work in progress" value="2"/>
+            </choice>
+        </element>
+        <element label="Transaction number" max_length="40" name="u_transaction_number" type="string"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_state" table="x_269830_ing_trade_ing_trade_finance_services_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for info</label>
+            <language>en</language>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <sequence/>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-26 15:41:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd831076dba663006a22793ebf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-26 15:41:59</sys_updated_on>
+            <value>-7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Info requested</label>
+            <language>en</language>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <sequence/>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-26 15:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37935076dba663006a22793ebf9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-26 15:42:31</sys_updated_on>
+            <value>-8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <sequence/>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-26 15:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3eb35836dba663006a22793ebf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-26 15:42:56</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in progress</label>
+            <language>en</language>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <sequence/>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-26 15:43:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41d3dc36dba663006a22793ebf961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-26 15:43:21</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <sequence/>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-26 15:43:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4df35836dba663006a22793ebf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-26 15:43:43</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-26 15:41:59</sys_created_on>
+            <sys_id>a993dcf2dba663006a22793ebf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_state</sys_name>
+            <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+            <sys_update_name>sys_choice_x_269830_ing_trade_ing_trade_finance_services_requests_u_state</sys_update_name>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-26 15:41:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

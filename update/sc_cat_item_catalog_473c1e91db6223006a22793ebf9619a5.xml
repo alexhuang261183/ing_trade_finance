@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ELC - Payment">9d7b1291db6223006a22793ebf961940</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-22 09:48:07</sys_created_on>
+        <sys_id>473c1e91db6223006a22793ebf9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.ELC - Payment</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_473c1e91db6223006a22793ebf9619a5</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-22 09:48:07</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

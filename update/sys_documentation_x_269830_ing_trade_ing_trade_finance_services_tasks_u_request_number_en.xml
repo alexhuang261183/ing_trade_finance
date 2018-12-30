@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_request_number" label="Request number" language="en" table="x_269830_ing_trade_ing_trade_finance_services_tasks">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_request_number</element>
+            <help/>
+            <hint/>
+            <label>Request number</label>
+            <language>en</language>
+            <name>x_269830_ing_trade_ing_trade_finance_services_tasks</name>
+            <plural>Request numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 17:26:03</sys_created_on>
+            <sys_id>c30544eddb2623006a22793ebf9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request number</sys_name>
+            <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+            <sys_update_name>sys_documentation_x_269830_ing_trade_ing_trade_finance_services_tasks_u_request_number_en</sys_update_name>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 17:26:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

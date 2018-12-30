@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="28932219db6223006a22793ebf961923" sys_domain="global" table="x_269830_ing_trade_ing_trade_finance_services_requests" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 10:20:11</sys_created_on>
+            <sys_id>70932219db6223006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 10:20:11</sys_created_on>
+            <sys_id>78932219db6223006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 10:20:11</sys_created_on>
+            <sys_id>f8932219db6223006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_flow</element>
+            <position>3</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 10:20:11</sys_created_on>
+            <sys_id>7c932219db6223006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 10:20:11</sys_created_on>
+            <sys_id>fc932219db6223006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 10:20:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assigned_to</element>
+            <position>5</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:24:16</sys_created_on>
+            <sys_id>82e6bf55db2623006a22793ebf961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:24:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assignment_group</element>
+            <position>6</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:24:17</sys_created_on>
+            <sys_id>0ae6bf55db2623006a22793ebf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:24:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_transaction_number</element>
+            <position>7</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:29:24</sys_created_on>
+            <sys_id>0d183f55db2623006a22793ebf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:29:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sequence_number</element>
+            <position>8</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:29:24</sys_created_on>
+            <sys_id>5118fb95db2623006a22793ebf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:29:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_in</element>
+            <position>9</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:38:14</sys_created_on>
+            <sys_id>ee1af3d5db2623006a22793ebf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:38:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments</element>
+            <position>10</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:38:14</sys_created_on>
+            <sys_id>e61a7319db2623006a22793ebf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:38:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_amount</element>
+            <position>11</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:38:14</sys_created_on>
+            <sys_id>6a1a7319db2623006a22793ebf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:38:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency</element>
+            <position>12</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:38:14</sys_created_on>
+            <sys_id>ea1a7319db2623006a22793ebf96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:38:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer</element>
+            <position>13</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 16:38:53</sys_created_on>
+            <sys_id>844af319db2623006a22793ebf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 16:38:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>14</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-25 17:23:48</sys_created_on>
+            <sys_id>9f41675adbea23006a22793ebf9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_269830_ing_trade_ing_trade_finance_services_requests" sys_domain="global" view="Default view">28932219db6223006a22793ebf961923</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-25 17:23:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-22 10:20:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28932219db6223006a22793ebf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_269830_ing_trade_ing_trade_finance_services_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+            <sys_update_name>sys_ui_section_28932219db6223006a22793ebf961923</sys_update_name>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-22 10:20:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

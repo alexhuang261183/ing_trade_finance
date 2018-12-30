@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ELC advise">0f997397db22e3006a22793ebf9619cc</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:44:41</sys_created_on>
+        <sys_id>02c9f397db22e3006a22793ebf961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.ELC</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_02c9f397db22e3006a22793ebf961979</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:44:41</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

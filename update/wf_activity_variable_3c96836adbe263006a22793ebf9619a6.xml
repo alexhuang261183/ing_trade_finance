@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_269830_ing_trade_ing_trade_finance_services_requests">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_activity_variable">
+    <wf_activity_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>ignore_filter_on_new=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,29 +14,36 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Task Name</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>u_task_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
+        <help/>
+        <hint/>
         <internal_type display_value="String">string</internal_type>
+        <label>Task Name</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_269830_ing_trade_ing_trade_finance_services_requests</name>
+        <max_length>100</max_length>
+        <model display_value="Create task (TFS)">6fa9cf9adbaa23006a22793ebf961907</model>
+        <model_id>6fa9cf9adbaa23006a22793ebf961907</model_id>
+        <model_table>wf_activity_definition</model_table>
+        <name>var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907</name>
         <next_element/>
+        <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -50,18 +57,18 @@
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_class_name>wf_activity_variable</sys_class_name>
         <sys_created_by>alex.huang</sys_created_by>
-        <sys_created_on>2018-12-15 07:37:47</sys_created_on>
-        <sys_id>74114a8fdb9263006a22793ebf9619b2</sys_id>
+        <sys_created_on>2018-12-26 10:06:02</sys_created_on>
+        <sys_id>3c96836adbe263006a22793ebf9619a6</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_name>Task Name</sys_name>
         <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
-        <sys_update_name>sys_dictionary_x_269830_ing_trade_ing_trade_finance_services_requests_number</sys_update_name>
+        <sys_update_name>wf_activity_variable_3c96836adbe263006a22793ebf9619a6</sys_update_name>
         <sys_updated_by>alex.huang</sys_updated_by>
-        <sys_updated_on>2018-12-27 10:09:38</sys_updated_on>
+        <sys_updated_on>2018-12-26 10:06:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -72,5 +79,5 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_dictionary>
+    </wf_activity_variable>
 </record_update>

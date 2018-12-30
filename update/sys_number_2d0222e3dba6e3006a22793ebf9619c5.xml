@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="">x_269830_ing_trade_finance_services_requests</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>TFSRE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-29 09:59:45</sys_created_on>
+        <sys_id>2d0222e3dba6e3006a22793ebf9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TFSRE</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>sys_number_2d0222e3dba6e3006a22793ebf9619c5</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-29 09:59:45</sys_updated_on>
+    </sys_number>
+</record_update>

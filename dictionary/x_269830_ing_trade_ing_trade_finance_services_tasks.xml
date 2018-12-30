@@ -3,10 +3,27 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
         <element label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Description" max_length="100" name="u_description" type="string"/>
+        <element label="Request number" max_length="32" name="u_request_number" reference="x_269830_ing_trade_ing_trade_finance_services_requests" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting" value="-7"/>
+                <element inactive_on_update="false" label="Close complete" value="3"/>
+                <element inactive_on_update="false" label="Close incomplete" value="4"/>
+                <element inactive_on_update="false" label="Info requested" value="-8"/>
+                <element inactive_on_update="false" label="Work in progress" value="2"/>
+                <element inactive_on_update="false" label="Open" sequence="10" value="1"/>
+            </choice>
+        </element>
+        <element label="Task description" max_length="1000" name="u_task_description" type="string"/>
+        <element label="Task name" max_length="100" name="u_task_name" type="string"/>
         <index name="index">
             <element name="u_assigned_to"/>
         </index>
         <index name="index2">
+            <element name="u_request_number"/>
+        </index>
+        <index name="index3">
             <element name="u_assignment_group"/>
         </index>
     </element>

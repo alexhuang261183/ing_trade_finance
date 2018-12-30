@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"stages":{},"activities":{},"ends":["2c71735fdbeea3006a22793ebf96199a"],"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>e871735fdbeea3006a22793ebf96199b,64713fdfdbeea3006a22793ebf96191f,8791f35fdbeea3006a22793ebf961928,2c71735fdbeea3006a22793ebf96199a</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>e871735fdbeea3006a22793ebf96199b,64713fdfdbeea3006a22793ebf96191f,8791f35fdbeea3006a22793ebf961928,2c71735fdbeea3006a22793ebf96199a</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>payment</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">e871735fdbeea3006a22793ebf96199b</start>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>6471735fdbeea3006a22793ebf961998</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:48</sys_updated_on>
+        <table>x_269830_ing_trade_ing_trade_finance_services_requests</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="payment">2eb4e861dba623006a22793ebf9619c5</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>payment</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-22 19:44:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2eb4e861dba623006a22793ebf9619c5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>payment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>wf_workflow_2eb4e861dba623006a22793ebf9619c5</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-25 09:17:29</sys_updated_on>
+        <table>x_269830_ing_trade_ing_trade_finance_services_requests</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2071735fdbeea3006a22793ebf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2c71735fdbeea3006a22793ebf961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a471735fdbeea3006a22793ebf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a071735fdbeea3006a22793ebf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>ac71735fdbeea3006a22793ebf961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2471735fdbeea3006a22793ebf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>64713fdfdbeea3006a22793ebf96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+        <x>131</x>
+        <y>22</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=64713fdfdbeea3006a22793ebf96191f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>20713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>24713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>28713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2c713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>60713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>64713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>68713fdfdbeea3006a22793ebf96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>68713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>6c713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>1970-01-01 00:00:01</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a0713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a4713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a8713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>e0713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>e4713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>ec713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>64713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>68713fdfdbeea3006a22793ebf96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>e4713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>60713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>20713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>6c713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>1970-01-01 00:00:01</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>e0713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2c713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>ec713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>24713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>28713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>68713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a0713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a4713fdfdbeea3006a22793ebf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>64713fdfdbeea3006a22793ebf96191f</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>a8713fdfdbeea3006a22793ebf961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">64713fdfdbeea3006a22793ebf96191f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>ac713fdfdbeea3006a22793ebf961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>approve</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:09:13</sys_created_on>
+        <sys_id>8791f35fdbeea3006a22793ebf961928</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+        <x>355</x>
+        <y>59</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8791f35fdbeea3006a22793ebf961928"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8791f35fdbeea3006a22793ebf961928</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:09:13</sys_created_on>
+        <sys_id>d6a13f5fdbeea3006a22793ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:13</sys_updated_on>
+        <value>requested</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8791f35fdbeea3006a22793ebf961928</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:09:13</sys_created_on>
+        <sys_id>d6a13f5fdbeea3006a22793ebf9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:13</sys_updated_on>
+        <value>requested</value>
+        <variable display_value="">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="approve">8791f35fdbeea3006a22793ebf961928</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:09:13</sys_created_on>
+        <sys_id>92a13f5fdbeea3006a22793ebf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:13</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>e871735fdbeea3006a22793ebf96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e871735fdbeea3006a22793ebf96199b"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">e871735fdbeea3006a22793ebf96199b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>ec713fdfdbeea3006a22793ebf96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2c71735fdbeea3006a22793ebf96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+        <x>933</x>
+        <y>424</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2c71735fdbeea3006a22793ebf96199a"/>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ec713fdfdbeea3006a22793ebf96191e</condition>
+        <from display_value="Begin">e871735fdbeea3006a22793ebf96199b</from>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2c713fdfdbeea3006a22793ebf961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <to display_value="">64713fdfdbeea3006a22793ebf96191f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ac713fdfdbeea3006a22793ebf961922</condition>
+        <from display_value="">64713fdfdbeea3006a22793ebf96191f</from>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:09:21</sys_created_on>
+        <sys_id>d0b1ffd7dbeea3006a22793ebf961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:21</sys_updated_on>
+        <to display_value="approve">8791f35fdbeea3006a22793ebf961928</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">92a13f5fdbeea3006a22793ebf9619e6</condition>
+        <from display_value="approve">8791f35fdbeea3006a22793ebf961928</from>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:09:24</sys_created_on>
+        <sys_id>f8b13f5bdbeea3006a22793ebf9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:09:24</sys_updated_on>
+        <to display_value="End">2c71735fdbeea3006a22793ebf96199a</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-28 21:08:16</sys_created_on>
+        <sys_id>2871735fdbeea3006a22793ebf961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 21:08:16</sys_updated_on>
+        <workflow_version display_value="payment">6471735fdbeea3006a22793ebf961998</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=2eb4e861dba623006a22793ebf9619c5^sys_id!=6471735fdbeea3006a22793ebf961998">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f2e4395bdbeaa3006a22793ebf961942" sys_domain="global" table="var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assignment_group</element>
+            <position>0</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-28 12:04:12</sys_created_on>
+            <sys_id>bee4395bdbeaa3006a22793ebf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907" sys_domain="global" view="Default view">f2e4395bdbeaa3006a22793ebf961942</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-28 12:04:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_description</element>
+            <position>1</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-28 12:04:12</sys_created_on>
+            <sys_id>36e4395bdbeaa3006a22793ebf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907" sys_domain="global" view="Default view">f2e4395bdbeaa3006a22793ebf961942</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-28 12:04:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_task_name</element>
+            <position>2</position>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-28 12:04:12</sys_created_on>
+            <sys_id>b6e4395bdbeaa3006a22793ebf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907" sys_domain="global" view="Default view">f2e4395bdbeaa3006a22793ebf961942</sys_ui_section>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-28 12:04:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-28 12:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2e4395bdbeaa3006a22793ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var__m_wf_activity_variable_6fa9cf9adbaa23006a22793ebf961907</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+            <sys_update_name>sys_ui_section_f2e4395bdbeaa3006a22793ebf961942</sys_update_name>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-28 12:04:12</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

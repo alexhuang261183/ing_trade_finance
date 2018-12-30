@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_activity_definition">
+    <wf_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <action>false</action>
+        <attributes/>
+        <base_provider/>
+        <category>Tasks</category>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image/>
+        <js_class_name>Create_task__TFS_</js_class_name>
+        <name>Create task (TFS)</name>
+        <script><![CDATA[// Workflow activity definition handler class
+//
+// Implement activity definition handling in the onExecute method
+//
+// Implement any event handlers for the activity definition as a method named 'on[event_name]'
+//     For example, to handle the 'cancel' event, implement an 'onCancel' method
+//
+
+var Create_task__TFS_ActivityHandler = Class.create();
+Create_task__TFS_ActivityHandler.prototype = Object.extendsObject(global.WFActivityHandler, {
+	
+	initialize: function() {
+		
+		global.WFActivityHandler.prototype.initialize.call(this);
+		gs.info("alex begin1");
+	},
+	
+	onExecute: function() {
+		// implement activity definition code here
+		gs.info("alex begin2");
+		var gr = new GlideRecord('x_269830_ing_trade_ing_trade_finance_services_tasks');
+		gr.u_request_number = current.sys_id;
+		gs.info("alex1"+gr.u_request_number);
+		gr.u_state = 1;
+		gr.u_assignment_group = activity.vars.u_assignment_group;
+		gr.u_task_name = activity.vars.u_task_name;
+		gr.u_task_description = activity.vars.u_task_description;
+		gs.info("2"+gr.u_assignment_group);
+		gs.info("3"+gr.u_task_name);
+		gs.info("4"+gr.u_task_description);
+		var id = gr.insert();
+		activity.scratchpad.taskID = id;
+		executing.state = 'waiting';
+		executing.result = 1;
+	},
+// 	onUpdate: function() {
+// 		// check for completion
+// 		var gr = new GlideRecord('x_269830_ing_trade_ing_trade_finance_services_tasks');
+// 		gr.addQuery('sys_id', activity.scratchpad.taskID);
+// 		gr.query();
+// 		if(gr.next()){
+// 			if (gr.u_state == 3){
+// 				executing.state = 'finished';
+// 				executing.result = 3;
+// 			}
+// 		}
+		
+// 	},
+	type: 'Create_task__TFS_ActivityHandler'
+});]]></script>
+        <style/>
+        <sys_class_name>wf_activity_definition</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-25 15:52:28</sys_created_on>
+        <sys_id>6fa9cf9adbaa23006a22793ebf961907</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Create task (TFS)</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>wf_activity_definition_6fa9cf9adbaa23006a22793ebf961907</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-28 20:47:11</sys_updated_on>
+        <table>x_269830_ing_trade_ing_trade_finance_services_requests</table>
+        <version_container_id/>
+    </wf_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6fa9cf9adbaa23006a22793ebf961907"/>
+</record_update>
