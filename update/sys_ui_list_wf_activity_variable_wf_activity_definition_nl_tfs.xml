@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="wf_activity_definition" relationship="" sys_domain="global" table="wf_activity_variable" version="2" view="nl_tfs">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>element</element>
+            <list_id display_value="wf_activity_variable" element="NULL" name="wf_activity_variable" parent="wf_activity_definition" relationship="NULL" sys_domain="global" view="a2896febdb2ae3006a22793ebf961972">e8672408db7a23006a22793ebf961929</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_id>2c672408db7a23006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>label</element>
+            <list_id display_value="wf_activity_variable" element="NULL" name="wf_activity_variable" parent="wf_activity_definition" relationship="NULL" sys_domain="global" view="a2896febdb2ae3006a22793ebf961972">e8672408db7a23006a22793ebf961929</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_id>ac672408db7a23006a22793ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>internal_type</element>
+            <list_id display_value="wf_activity_variable" element="NULL" name="wf_activity_variable" parent="wf_activity_definition" relationship="NULL" sys_domain="global" view="a2896febdb2ae3006a22793ebf961972">e8672408db7a23006a22793ebf961929</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_id>20672408db7a23006a22793ebf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reference</element>
+            <list_id display_value="wf_activity_variable" element="NULL" name="wf_activity_variable" parent="wf_activity_definition" relationship="NULL" sys_domain="global" view="a2896febdb2ae3006a22793ebf961972">e8672408db7a23006a22793ebf961929</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_id>a0672408db7a23006a22793ebf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_value</element>
+            <list_id display_value="wf_activity_variable" element="NULL" name="wf_activity_variable" parent="wf_activity_definition" relationship="NULL" sys_domain="global" view="a2896febdb2ae3006a22793ebf961972">e8672408db7a23006a22793ebf961929</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_id>24672408db7a23006a22793ebf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="wf_activity_variable" element="NULL" name="wf_activity_variable" parent="wf_activity_definition" relationship="NULL" sys_domain="global" view="a2896febdb2ae3006a22793ebf961972">e8672408db7a23006a22793ebf961929</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_id>a4672408db7a23006a22793ebf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>wf_activity_variable</name>
+            <parent>wf_activity_definition</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex.huang</sys_created_by>
+            <sys_created_on>2018-12-30 14:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8672408db7a23006a22793ebf961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>wf_activity_variable</sys_name>
+            <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+            <sys_update_name>sys_ui_list_wf_activity_variable_wf_activity_definition_nl_tfs</sys_update_name>
+            <sys_updated_by>alex.huang</sys_updated_by>
+            <sys_updated_on>2018-12-30 14:20:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="NL_TFS" name="nl_tfs">a2896febdb2ae3006a22793ebf961972</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

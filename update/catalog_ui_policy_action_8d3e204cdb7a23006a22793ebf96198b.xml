@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ELC advise">0f997397db22e3006a22793ebf9619cc</catalog_item>
+        <catalog_variable>IO:a104c840db3a23006a22793ebf9619f4</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>alex.huang</sys_created_by>
+        <sys_created_on>2018-12-30 14:51:03</sys_created_on>
+        <sys_id>8d3e204cdb7a23006a22793ebf96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>advanced_check</sys_name>
+        <sys_package display_value="ING - Trade Finance Services" source="x_269830_ing_trade">25f6f147db5263006a22793ebf961933</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ING - Trade Finance Services">25f6f147db5263006a22793ebf961933</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8d3e204cdb7a23006a22793ebf96198b</sys_update_name>
+        <sys_updated_by>alex.huang</sys_updated_by>
+        <sys_updated_on>2018-12-30 14:51:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide mandatory question on form">91fd6c0cdb7a23006a22793ebf9619b2</ui_policy>
+        <variable>advanced_check</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
